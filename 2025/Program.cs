@@ -34,12 +34,24 @@
 
         private static ISolution? GetSolution(uint day)
         {
+            switch (day)
+            {
+                case 1: return new Day01();
+            }
+
             return null;
         }
 
         private static StreamReader? GetInput(uint day)
         {
+            try
+            {
                 return new StreamReader($"Input/Day{day:d2}.txt");
+        }
+            catch
+            { 
+                return null;
+            }
         }
     }
 
