@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 2023/AdventOfCode2023/InputFiles/.gitignore
+*/Input/.gitignore
