@@ -2,7 +2,7 @@ namespace AdventOfCode2025
 {
     class Day01 : ISolution
     {
-        public int? Part1(TextReader input)
+        public long? Part1(TextReader input)
         {
             int zeroCount = 0;
             int dialPosition = 50;
@@ -25,7 +25,7 @@ namespace AdventOfCode2025
 
             return zeroCount;
         }
-        public int? Part2(TextReader input)
+        public long? Part2(TextReader input)
         {
             int zeroCount = 0;
             int dialPosition = 50;

@@ -57,15 +57,15 @@
 
     public interface ISolution
     {
-        public int? Part1(TextReader input);
-        public int? Part2(TextReader input);
+        public long? Part1(TextReader input);
+        public long? Part2(TextReader input);
 
         public TextReader GetExample();
 
         public void Print(uint day, StreamReader? input)
         {
-            int? example1 = Part1(GetExample());
-            int? example2 = Part2(GetExample());
+            long? example1 = Part1(GetExample());
+            long? example2 = Part2(GetExample());
 
             Console.WriteLine("Puzzle 1 Example " + (example1.HasValue ? $"= {example1}" : "Not Solved"));
             Console.WriteLine("Puzzle 2 Example " + (example2.HasValue ? $"= {example2}" : "Not Solved"));
@@ -77,9 +77,9 @@
                 return;
             }
 
-            int? part1 = Part1(input);
+            long? part1 = Part1(input);
             input.BaseStream.Position = 0;
-            int? part2 = Part2(input);
+            long? part2 = Part2(input);
 
             Console.WriteLine("Puzzle 1 " + (part1.HasValue ? $"= {part1}" : "Not Solved"));
             Console.WriteLine("Puzzle 2 " + (part2.HasValue ? $"= {part2}" : "Not Solved"));
