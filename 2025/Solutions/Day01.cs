@@ -1,4 +1,4 @@
-namespace AdventOfCode2025
+namespace AdventOfCode2025.Solutions
 {
     class Day01 : ISolution
     {

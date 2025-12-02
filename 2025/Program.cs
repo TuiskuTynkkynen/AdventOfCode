@@ -36,7 +36,8 @@
         {
             switch (day)
             {
-                case 1: return new Day01();
+                case 1: return new Solutions.Day01();
+                case 2: return new Solutions.Day02();
             }
 
             return null;
@@ -47,7 +48,7 @@
             try
             {
                 return new StreamReader($"Input/Day{day:d2}.txt");
-        }
+            }
             catch
             { 
                 return null;
