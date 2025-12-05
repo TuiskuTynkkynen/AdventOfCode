@@ -38,6 +38,7 @@
             {
                 case 1: return new Solutions.Day01();
                 case 2: return new Solutions.Day02();
+                case 3: return new Solutions.Day03();
             }
 
             return null;
