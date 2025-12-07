@@ -42,6 +42,7 @@
                 case 4: return new Solutions.Day04();
                 case 5: return new Solutions.Day05();
                 case 6: return new Solutions.Day06();
+                case 7: return new Solutions.Day07();
             }
 
             return null;
