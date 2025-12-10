@@ -1,10 +1,11 @@
-﻿namespace AdventOfCode2025
+﻿using System.Diagnostics;
+
+namespace AdventOfCode2025
 {
     class Program
     {
         static void Main()
         {
-
             while (true)
             {
                 uint day = 0;
@@ -44,6 +45,7 @@
                 case 6: return new Solutions.Day06();
                 case 7: return new Solutions.Day07();
                 case 8: return new Solutions.Day08();
+                case 9: return new Solutions.Day09();
             }
 
             return null;
