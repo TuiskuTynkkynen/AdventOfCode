@@ -47,6 +47,7 @@ namespace AdventOfCode2025
                 case 8: return new Solutions.Day08();
                 case 9: return new Solutions.Day09();
                 case 10: return new Solutions.Day10();
+                case 11: return new Solutions.Day11();
             }
 
             return null;
