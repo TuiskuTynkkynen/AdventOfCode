@@ -84,8 +84,6 @@
 
         private void Connect(int A, int B, List<HashSet<int>> circuits)
         {
-            var foo = circuits.Find(set => set.Contains(A));
-            
             int circuitA = circuits.FindIndex(0, set => set.Contains(A));
             int circuitB = circuits.FindIndex(0, set => set.Contains(B));
 
