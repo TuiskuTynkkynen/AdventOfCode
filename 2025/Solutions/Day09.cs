@@ -47,8 +47,6 @@ namespace AdventOfCode2025.Solutions
                 .Select(tile => (Start: tile.Item, End: tiles[tile.Index - 1]))
                 .ToArray();
 
-            long result = 0;
-            
             List<(int Corner1, int Corner2, long Area)> areas = [];
             for (int i = 0; i < tiles.Length - 1; i++)
             {
