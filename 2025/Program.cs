@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace AdventOfCode2025
+﻿namespace AdventOfCode2025
 {
     class Program
     {
@@ -48,6 +46,7 @@ namespace AdventOfCode2025
                 case 9: return new Solutions.Day09();
                 case 10: return new Solutions.Day10();
                 case 11: return new Solutions.Day11();
+                case 12: return new Solutions.Day12();
             }
 
             return null;
